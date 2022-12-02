@@ -27,9 +27,9 @@ const Profile = () => {
   }
   return (
     <>
-      <h3>{user}</h3>
-      <p>{pp.name}</p>
-      <p>{pp.description}</p>
+      <h3>username : {user}</h3>
+      <p>pp.name : {pp.name}</p>
+      <p>pp.description : {pp.description}</p>
 
       {/* <Outlet /> */}
       {/* 이렇게 하면 중첩된 UI로 레이아웃을 쉽게 렌더링할 수 있습니다. */}
